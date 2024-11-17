@@ -1,0 +1,271 @@
+:root {
+    --gap: 60px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto Serif", serif;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+
+}
+
+h1 {
+    font-family: 'Roboto Serif';
+    font-weight: 600;
+    color: #000000;
+}
+
+h2 {
+
+    width: 42.3rem;
+    height: 7.6rem;
+    font-family: 'Roboto Serif';
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    letter-spacing: 0.03em;
+    padding: 0;
+    margin: 0;
+    color: #000000;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.7rem;
+    padding: 0;
+    margin-top: 0;
+}
+
+h4,
+h5,
+h6,
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-bg {
+    background-color: #C7E5B1;
+    background-image: url('../img/background.svg');
+    height: 90.0rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+.gradient-bg {
+    background-color: #E4E4E4;
+    background-image: url(../img/backSobre.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.grey-bg {
+    background-color: #E4E4E4;
+}
+
+.main-container {
+    max-width: 192.0rem;
+    margin: 0 auto;
+}
+
+.main-content {
+    max-width: 128rem;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.menu {
+    background-color: #E4E4E4;
+    padding-top: 3.0rem;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    color: #000000;
+    display: block;
+    font-weight: 300;
+    font-style: normal;
+    margin: 40px;
+    position: relative;
+}
+
+.logo-set {
+
+    padding: 0;
+    margin-right: 150px;
+}
+
+.div-set {
+    max-height: 14.4rem;
+    padding-bottom: 0;
+}
+
+.nav-inv {
+    color: #E4E4E4;
+    margin: 47px;
+    font-weight: 300;
+    font-style: normal;
+    display: block;
+}
+
+.margin-p {
+    margin-left: 3.0rem;
+    margin-top: 2.0rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.mulher-set {
+    margin-left: 16.0rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 60.0rem;
+    height: 60.0rem;
+}
+
+.inf-margin {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin: 0;
+}
+
+.quest {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.margin-left {
+    margin-left: 8.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.margin-right {
+    margin-right: 8.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.align-serv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 28.0rem;
+}
+
+.margl {
+    margin-left: 11.0rem;
+}
+
+.margr {
+    margin-right: 11.0rem;
+}
+
+.aligndown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5.0rem;
+}
+
+.agende-set {
+    background-color: #E4E4E4;
+    background-image: url(../img/backform.svg);
+    padding-top: 9.0rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+.placeholder {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.texting {
+    margin-right: 10.0rem;
+}
+
+.form {
+    margin-left: 20.0rem;
+}
+
+.inset {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+}
+
+.divesp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin-left: 8.0rem;
+}
+
+.divtem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+
+}
+
+.divtem h2 {
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.22em;
+}
+
+.imgs{
+    margin-top: 7.0rem;
+    padding: 0;
+}
+
+
+
+
+/*
+    font-family: "Roboto Serif", serif;
+    font-family: "Montserrat", sans-serif;
